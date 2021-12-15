@@ -58,4 +58,4 @@ jobs:
       - name: Check style against standards using prospector
         run: prospector
       - name: Check import order
-        run: isort --check-only python-template-test
+        run: isort --check-only python_template_test
