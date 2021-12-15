@@ -1,7 +1,6 @@
 """Tests for the python_template_test.my_module module.
 """
 import pytest
-
 from python_template_test.my_module import hello
 
 
