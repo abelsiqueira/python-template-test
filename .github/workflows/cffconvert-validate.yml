@@ -1,4 +1,4 @@
-name: cffconvert
+name: cffconvert-validate
 
 on: push
 
