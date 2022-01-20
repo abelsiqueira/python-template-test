@@ -19,5 +19,5 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           commit-message: "[:robot:] update .zenodo.json"
-          committer: "cffconvert@users.noreply.github.com"
+          committer: "cffconvert GitHub Action <cffconvert@users.noreply.github.com>"
           title: "[auto] Update .zenodo.json"
