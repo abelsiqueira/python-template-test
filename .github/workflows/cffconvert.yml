@@ -17,6 +17,7 @@ jobs:
 
       - name: Commit and create a Pull Request with the Zenodo file
         uses: peter-evans/create-pull-request@v3
-        commit-message: "[:robot:] update .zenodo.json"
-        committer: "cffconvert@users.noreply.github.com"
-        title: "[auto] Update .zenodo.json"
+        with:
+          commit-message: "[:robot:] update .zenodo.json"
+          committer: "cffconvert@users.noreply.github.com"
+          title: "[auto] Update .zenodo.json"
