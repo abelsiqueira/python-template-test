@@ -1,5 +1,8 @@
 """Documentation about the python_template_test module."""
 
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
 # FIXME: put actual code here
 def hello(name):
